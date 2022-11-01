@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "footer footer footer footer";
+}
+
+.header {
+    max-width: 800px;
+    text-align: center;
+    background-color: aqua;
+    grid-area: header;
+}
+
+.main {
+    max-width: 600px;
+    background-color: brown;
+    grid-area: main;
+}
+
+.div {
+    max-width: 600px;
+    background-color: white;
+}
+
+.aside {
+    max-width: 600px;
+    background-color: blueviolet;
+    text-align: center;
+    grid-area: aside;
+    display: grid;
+    place-items: center;
+}
+
+.footer {
+    max-width: 800px;
+    background-color: aqua;
+    text-align: center;
+    grid-area: footer;
+}
+
