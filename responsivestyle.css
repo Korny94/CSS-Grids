@@ -45,9 +45,9 @@
     grid-area: footer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .container {
-        max-width: 600px;
+        max-width: 700px;
         margin: 0 auto;
         display: grid;
         grid-template-areas: 
