@@ -20,13 +20,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
 }
 
 .div {
     width: clamp(1px, 150px, 151px);
     height: clamp(1px, 150px, 151px);
     background-color: white;
-    margin: 5px auto;
+    margin: auto;
     display: grid;
     place-items: center;
 }
